@@ -143,6 +143,13 @@ span {
   transform: rotate(180deg);
   color: white;
   text-align: center;
+  width: 120px;
+}
+
+@media (max-width: 600px) {
+  .box1 .span4 b {
+    width: 100px;
+  }
 }
 
 .spin {
